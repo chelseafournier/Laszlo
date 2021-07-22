@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "base.html" %}
+    <meta charset="UTF-8">
+    <title> {% block title %} Ambassador {% endblock title %} </title>
+</head>
+<body>
+{% block content %}
+<div class="fancy" style="text-align:center;">
+  <br>
+  <h2>Laszlo's Discount Codes</h2>
+</div>
+
+<br>
+
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="/static/assets/Fuzzypaws.JPG" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Fuzzy Paws Co.</h5>
+      <p class="card-text">LASZLO15</p>
+      <p class="card-text"><a href="https://www.etsy.com/ca/shop/FuzzyPawsCO">Etsy Site</a></p>
+      <p class="card-text"><small class="text-muted">Last updated 2021</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/static/assets/Fancypaws.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Fancy Paws Co.</h5>
+      <p class="card-text">FANCYLASZLO15</p>
+      <p class="card-text"><a href="https://www.etsy.com/shop/fncypaws">Etsy Site</a></p>
+      <p class="card-text"><small class="text-muted">Last updated 2021</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/static/assets/eco4paws.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Eco 4 Paws</h5>
+      <p class="card-text">LASZLO10</p>
+      <p class="card-text"><a href="https://eco4paws.com/">Website</a></p>
+      <p class="card-text"><small class="text-muted">Last updated 2021</small></p>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+</body>
+</html>
